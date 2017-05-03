@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">设备大师</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="accessibility_name">设备大师_刷用户服务</string>
+    <string name="accessibility_description">只有开启了这个服务才会自动刷APP用户。</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_xiao_yao">XiaoYaoActivity</string>
+
+</resources>

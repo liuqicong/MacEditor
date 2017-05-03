@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="WIFI地址:"/>
+
+            <EditText
+                android:id="@+id/xiaoyao_mac_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:lines="1"
+                android:maxLength="17"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_mac"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#569657"
+                android:padding="12dp"
+                android:text="更改MAC"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="IMEI(设备号):"/>
+
+            <EditText
+                android:id="@+id/xiaoyao_imei_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:lines="1"
+                android:maxLength="17"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_imei"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#569657"
+                android:padding="12dp"
+                android:text="更改设备号"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="当前手机号:"/>
+
+            <EditText
+                android:id="@+id/xiaoyao_linenum_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:lines="1"
+                android:maxLength="17"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_linenum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#569657"
+                android:padding="12dp"
+                android:text="更改手机号"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SIM标识:"/>
+
+            <EditText
+                android:id="@+id/xiaoyao_imsi_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:lines="1"
+                android:maxLength="17"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_imsi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#569657"
+                android:padding="12dp"
+                android:text="更改手机卡IMSI"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SIM卡序号  :"/>
+
+            <EditText
+                android:id="@+id/xiaoyao_simserial_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:lines="1"
+                android:maxLength="17"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_simserial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#569657"
+                android:padding="12dp"
+                android:text="更改手机卡序号"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/xiaoyao_btn_onekey"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:text="一键更改设备信息"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_changeui_system"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:text="更换状态栏系统图标"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_changeui_app"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_weight="1"
+                android:text="添加状态栏应用图标"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="自动刷送呗用户:"/>
+
+            <EditText
+                android:id="@+id/xiaoyao_brush_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="3"
+                android:digits="0123456789"
+                android:hint="启动时长>=3000"
+                android:inputType="numberSigned"
+                android:lines="1"
+                android:maxLength="17"
+                android:text="3000"/>
+
+            <Button
+                android:id="@+id/xiaoyao_btn_brush_sber_batch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="#569657"
+                android:padding="12dp"
+                android:text="自动批量刷"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
